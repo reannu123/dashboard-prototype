@@ -5,6 +5,7 @@ Base Repository for Next-Shadcn projects
 - Set up Docker file 
 - Set up start.sh
 - Set up workflow file for GitHub Actions in `.github/workflows/docker-image.yml`
+- Set up GitHub Repository Secret for DockerHub (`DOCKERHUB_TOKEN` in the workflow yml file)
 
 ## After GitHub Push and DockerHub Push
 - Set up Portainer Stack based on image (copy from repository compose file)
